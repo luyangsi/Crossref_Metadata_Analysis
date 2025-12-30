@@ -12,7 +12,7 @@ This Jupyter notebook is used for the clean and process the annotated sample met
 
 
 **Run the Code**
-1. Download the "retraction-indexing-agreement" folder or clone the web URL: https://github.com/infoqualitylab/retraction-indexing-agreement.git
+1. Download the "Crossref_Metadata_Analysis" folder or clone the web URL: https://github.com/luyangsi/Crossref_Metadata_Analysis.git
 2. Set your working directory to  “retraction-indexing-agreement” and create data, result, src subfolders. Create subfolders for data as shown below.
 3. Run the code in the src subfolder.
 
@@ -29,11 +29,9 @@ retraction-indexing-agreement/
 │   ├── Step1_DataCollectionFromSources_and_UnionList.ipynb
 │   ├── Step2_HandlingItemsWithoutDOI_ButWithPubMedID.ipynb 
 ```
-
-3. Enter your email, API Keys and insttoken into the config.json file
-4. Run the files in the src files
-5. Install the libraries as mentioned above
-6. Run the cells accordingly 
+3. Run the files in the src files
+4. Install the libraries as mentioned above
+5. Run the cells accordingly 
 
 ## [Tag v1.1.0](https://github.com/luyangsi/Crossref_Metadata_Analysis.git)
 **Cite code v1.1.0 as:** <br>
@@ -44,4 +42,10 @@ retraction-indexing-agreement/
 
 **Manuscript**
 - Si, Luyang; Salami, Malik Oyewale; Schneider, Jodi. Tracking the Data Quality Landscape of 	Retracted Papers: Flag Usage in Titles and Changes in DOI Retraction Status.
+
+**Dataset**
+- [1] Si, Luyang; Salami, Malik Oyewale; Schneider, Jodi (2025): Dataset tracking DOIs marked 	as retracted in Crossref as of April 2023 but no longer marked in Crossref as retracted as of July 	2024. University of Illinois Urbana-Champaign. https://doi.org/10.13012/B2IDB-5333456_V1
+- [2] Si, Luyang; Salami, Malik Oyewale; Schneider, Jodi (2025): Dataset on tracking the data 	quality landscape of retracted papers: Flag usage in titles and changes in DOI retraction status. 	University of Illinois Urbana-Champaign. https://doi.org/10.13012/B2IDB-2907908_V1
+
+
 
