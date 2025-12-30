@@ -17,17 +17,15 @@ This Jupyter notebook is used for the clean and process the annotated sample met
 3. Run the code in the src subfolder.
 
 ```
-retraction-indexing-agreement/
-|
-├── config.json
+Crossref_Metadata_Analysis/
 ├── data/
-│   ├── coverednotindexed/
-│   ├── crossref/
-│   ├── engineeringvillage/ 
+│   ├── crossref_sample_data_validation_set.xlsx/
+│   ├── crossref_only_all_patterns.csv/
+│   ├── crossref-retracted-DOIs_reassessment_from_unionlist_completed_2023-09-03_to_2024-07-09.csv/ 
 ├── result
 ├── src/
-│   ├── Step1_DataCollectionFromSources_and_UnionList.ipynb
-│   ├── Step2_HandlingItemsWithoutDOI_ButWithPubMedID.ipynb 
+│   ├── Step_1_Crossref_Sample_Analysis.ipynb
+│   ├── Step2_Missing_DOI_Analysis.ipynb
 ```
 3. Run the files in the src files
 4. Install the libraries as mentioned above
@@ -41,11 +39,11 @@ retraction-indexing-agreement/
  - Luyang Si (0009-0008-7883-4757) with contributions from Malik Salami (0000-0002-2329-5660).<br>
 
 **Manuscript**
-- Si, Luyang; Salami, Malik Oyewale; Schneider, Jodi. Tracking the Data Quality Landscape of 	Retracted Papers: Flag Usage in Titles and Changes in DOI Retraction Status.
+- Si, Luyang; Salami, Malik Oyewale; Schneider, Jodi. Tracking the Data Quality Landscape of Retracted Papers: Flag Usage in Titles and Changes in DOI Retraction Status.
 
 **Dataset**
-- [1] Si, Luyang; Salami, Malik Oyewale; Schneider, Jodi (2025): Dataset tracking DOIs marked 	as retracted in Crossref as of April 2023 but no longer marked in Crossref as retracted as of July 	2024. University of Illinois Urbana-Champaign. https://doi.org/10.13012/B2IDB-5333456_V1
-- [2] Si, Luyang; Salami, Malik Oyewale; Schneider, Jodi (2025): Dataset on tracking the data 	quality landscape of retracted papers: Flag usage in titles and changes in DOI retraction status. 	University of Illinois Urbana-Champaign. https://doi.org/10.13012/B2IDB-2907908_V1
+- [1] Si, Luyang; Salami, Malik Oyewale; Schneider, Jodi (2025): Dataset tracking DOIs marked as retracted in Crossref as of April 2023 but no longer marked in Crossref as retracted as of July 	2024. University of Illinois Urbana-Champaign. https://doi.org/10.13012/B2IDB-5333456_V1
+- [2] Si, Luyang; Salami, Malik Oyewale; Schneider, Jodi (2025): Dataset on tracking the data quality landscape of retracted papers: Flag usage in titles and changes in DOI retraction status. 	University of Illinois Urbana-Champaign. https://doi.org/10.13012/B2IDB-2907908_V1
 
 
 
