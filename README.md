@@ -9,7 +9,7 @@ This Jupyter notebook is used for the clean and process the annotated sample met
 1. Install the proper version of Jupyter notebook (our version: 7.34.0).
 2. Install the standard python libraries: os, re, collections.
 3. Install third-party packages: pandas, numpy, matplotlib, and seaborn.
-4. Create configuration file (config.json). Insert your email and API keys for Elsevier databases (Compendex, GEOBASE, and Scopus) and Web of Science Core. Institutional token (insttoken) will be required for Elsevier if you are running the code. ### TO MALIK: Consider include your pipeline of Crossref data curation. Thus we can have the full pipeline for the whole project
+
 
 **Run the Code**
 1. Download the "retraction-indexing-agreement" folder or clone the web URL: https://github.com/infoqualitylab/retraction-indexing-agreement.git
