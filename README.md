@@ -6,11 +6,10 @@ The primary motivation of this project is to advocate for the quality of indexed
 This Jupyter notebook is used for the clean and process the annotated sample metadata,including add extra columns to display statistic informations. Its output includes cleaned dataset, data visualization, and metadata statistic informations.
 
 **Setup**
-Follow these steps to set up the code:
-2. Install the proper version of Jupyter notebook (our version: 7.34.0).
-3. Install the standard Python libraries: ast, collections, datetime, json, os, re, time, and unicodedata.
-4. Install third-party packages: tqdm, pandas, requests, seaborn, matplotlib, numpy, and yake.
-5. Create configuration file (config.json). Insert your email and API keys for Elsevier databases (Compendex, GEOBASE, and Scopus) and Web of Science Core. Institutional token (insttoken) will be required for Elsevier if you are running the code.
+1. Install the proper version of Jupyter notebook (our version: 7.34.0).
+2. Install the standard python libraries: os, re, collections.
+3. Install third-party packages: pandas, numpy, matplotlib, and seaborn.
+4. Create configuration file (config.json). Insert your email and API keys for Elsevier databases (Compendex, GEOBASE, and Scopus) and Web of Science Core. Institutional token (insttoken) will be required for Elsevier if you are running the code. ### TO MALIK: Consider include your pipeline of Crossref data curation. Thus we can have the full pipeline for the whole project
 
 **Run the Code**
 1. Download the "retraction-indexing-agreement" folder or clone the web URL: https://github.com/infoqualitylab/retraction-indexing-agreement.git
