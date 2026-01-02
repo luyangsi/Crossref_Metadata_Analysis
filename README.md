@@ -29,9 +29,8 @@ Crossref_Metadata_Analysis/
 │   ├── crossref_sample_data_validation_set.xlsx/
 │   ├── crossref_only_all_patterns.csv/
 │   ├── crossref-retracted-DOIs_reassessment_from_unionlist_completed_2023-09-03_to_2024-07-09.csv/ 
-├── result
 ├── src/
-│   ├── Step_1_Crossref_Sample_Analysis.ipynb
+│   ├── Step1_Crossref_Sample_Analysis.ipynb
 │   ├── Step2_Missing_DOI_Analysis.ipynb
 ```
 3. Run the files in the src files
