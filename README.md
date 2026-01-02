@@ -3,7 +3,14 @@
 The primary motivation of this project is to advocate for the quality of indexed retraction metadata and promote awareness among the scientific community.
 
 ### Description
-This Jupyter notebook is used for the clean and process the annotated sample metadata,including add extra columns to display statistic informations. Its output includes cleaned dataset, data visualization, and metadata statistic informations.
+
+Analysis 1
+Investigated how consistently retraction flags (e.g., “retracted article,”,“retracted”, “removal notice”) used in the titles of retracted publications indexed in Crossref reflect their true retraction status.
+
+Analysis 2 
+Investigated 208 DOIs that were indexed as retracted in Crossref’s April 2023 list but were no longer indexed as retracted in July 2024, despite remaining in the Crossref database.
+ 
+
 
 **Setup**
 1. Install the proper version of Jupyter notebook (our version: 7.34.0).
@@ -31,10 +38,6 @@ Crossref_Metadata_Analysis/
 4. Install the libraries as mentioned above
 5. Run the cells accordingly 
 
-## [Tag v1.1.0](https://github.com/luyangsi/Crossref_Metadata_Analysis.git)
-**Cite code v1.1.0 as:** <br>
-- TODO
-
  **Code authors:**
  - Luyang Si (0009-0008-7883-4757) with contributions from Malik Salami (0000-0002-2329-5660).<br>
 
@@ -44,6 +47,7 @@ Crossref_Metadata_Analysis/
 **Dataset**
 - [1] Si, Luyang; Salami, Malik Oyewale; Schneider, Jodi (2025): Dataset tracking DOIs marked as retracted in Crossref as of April 2023 but no longer marked in Crossref as retracted as of July 	2024. University of Illinois Urbana-Champaign. https://doi.org/10.13012/B2IDB-5333456_V1
 - [2] Si, Luyang; Salami, Malik Oyewale; Schneider, Jodi (2025): Dataset on tracking the data quality landscape of retracted papers: Flag usage in titles and changes in DOI retraction status. 	University of Illinois Urbana-Champaign. https://doi.org/10.13012/B2IDB-2907908_V1
+
 
 
 
